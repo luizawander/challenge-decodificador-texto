@@ -25,6 +25,16 @@ body{
     margin-left: 0%;
 }
 
+.icon1{
+    background: url(Imagens/aranha-removebg-preview.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-top: 0% ;
+    margin-left: 0%;
+    position: absolute;
+
+}
 
 .titulo {
     width: 40vw;
@@ -32,15 +42,15 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start; 
-    margin-top: 0;
-    margin-left: 0%;
+    margin-top: 1%;
+    margin-left: 7%;
 }
 
 .titulo > h1 {
     font-family: 'Press Start 2P', cursive;
     color: #f5c444;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     margin-top: 0;
     
 }
@@ -63,15 +73,6 @@ body{
     align-items: center;
 }
 
-.right{
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .elementos1{
     width: 60%;
     height: 100%;
@@ -82,14 +83,19 @@ body{
 }
 
 .input{
-    width: 70%;
+    width: 80%;
     height: 40%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
     border-radius: 15px;
     background-color: #ffffff5e;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFF;
+      
+    
 
 }
 
@@ -98,6 +104,7 @@ body{
     color: #ffffffb0;
     font-size: 10px;
     line-height: 1.5;
+
 }
 
 .btn-container{
@@ -107,11 +114,73 @@ body{
 
 }
    
-.input1{
+.botao{
     background-color:#f5c444;
     color: #7573b4;
     padding: 3%;
     margin: 4%;
+    font-size: 11px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 15px;
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.out{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #ffffff5e;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFF;
+
+}
+
+.out::placeholder {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffffb0;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.icon2{
+    background: url(Imagens/bruxa.png);
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 150px;
+
+}
+
+.out-copiar{
+    background-color:#f5c444;
+    color: #7573b4;
+    padding: 10%;
+    margin: 13%;
+    font-size: 11px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 15px;
+
+}
+
+.botao2{
+    background-color:#f5c444;
+    color: #7573b4;
+    padding: 19%;
+    margin: 16%;
     font-size: 11px;
     font-family: 'Press Start 2P', cursive;
     border-radius: 15px;

@@ -10,29 +10,34 @@
 </head>
 
 <body>
+
     <div class="cabecalho">
         <div class="icon1"></div>
         <div class="titulo">
             <h1> CriptoMagia </h1>
             <h2>A Bruxa e Seus Segredos de Decifração</h2>
-         </div>
+        </div>
     </div>
+    
     <main class="main">
        <div class="left"> 
             <div class="elementos1">
-                <textarea class="input" spellcheck="false" placeholder="Confie na bruxa e conte seu segredo... (somente em letras minúsculas)"></textarea>
+                <textarea id="input" class="input" spellcheck="false" placeholder="Confie na bruxa e conte seu segredo... (somente em letras minúsculas)"></textarea>
                 <div class="btn-container">
-                    <input class="input1"  type="button" value="Criptografar" onclick="criptografar()">
-                    <input class="input1" type="button" value="Descriptografar" onclick="descriptografar()">
+                    <input class="botao"  type="button" value="Criptografar" onclick="criptografar()">
+                    <input class="botao" type="button" value="Descriptografar" onclick="descriptografar()">
                 </div>
             </div>
         </div>   
+    
         <div class="right">
-            <textarea class="out" class="text2" spellcheck="false" placeholder="Aguarde seu segredo ser protegido pela CriptoMagia..."></textarea>
-            <div class="icon2"> </div>
-                <input type="button" value="Copiar" class="btn_copiar" onclick="copiarTexto()">
-            </div>  <!--div btn-->
-        </div> <!--div rigth-->
-  
+            <div class="elementos1">
+                <textarea id="out" class="out" spellcheck="false" placeholder="Aguarde seu segredo ser protegido pela CriptoMagia..."></textarea>
+                <div class="icon2"> </div>
+                <div class="btn-container">
+                    <input class="botao2" type="button" value="Copiar" onclick="copiarTexto()">           
+                </div>
+            </div>
+        </div>
     </main>
 </body>
