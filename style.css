@@ -1,3 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
+    margin: 0;
     background-color:#3a4479 ;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+.titulo > h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #f5c444;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.titulo > h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFF;
+    font-size: 16px;
+
+}
+
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
